@@ -1,6 +1,7 @@
 # Connect Four
  
-This is a quick Final Project for CPSC 411 - creating a Connect Four application.  Created by Nancy Badillo.
+This is a quick Final Project for CPSC 411 - creating a Connect Four application.  
+_Created by Nancy Badillo._
 
 ## Functionality
 * The Connect Four board is currently at 4 columns with 6 rows.
