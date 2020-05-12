@@ -22,14 +22,21 @@ class ViewController: UIViewController {
     
     var placedCircles = [[UIView]]()
     var board: Board!
+    var currentPlay = 1
     
     @IBAction func makeMove(_ sender: UIButton) {
+        
         let column = sender.tag
         if let row = board.nextEmptySlot(in: column){
-            board.add(circle: .red, in: column)
-            addCircle(inColumn: column, row: row, color: .red)
+            
+            if currentPlay % 2 == 0{
+            board.add(circle: .yellow, in: column)
+                addCircle(inColumn: column, row: row, color: .yellow)}
+            else{board.add(circle: .red, in: column)
+                addCircle(inColumn: column, row: row, color: .red)}
             
         }
+        self.currentPlay += 1
     }
     
     override func viewDidLoad() {
