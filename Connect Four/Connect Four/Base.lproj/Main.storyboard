@@ -41,6 +41,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OWz-AR-xCg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5q-jn-0Wn">
                                         <rect key="frame" x="203.5" y="0.0" width="100" height="350"/>
@@ -51,6 +54,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f0b-KY-jGv"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiG-z7-0Ip">
                                         <rect key="frame" x="305.5" y="0.0" width="99.5" height="350"/>
@@ -61,6 +67,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="makeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZtV-zY-IfW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -76,6 +85,9 @@
                     </view>
                     <connections>
                         <outletCollection property="columns" destination="DNn-vZ-H46" collectionClass="NSMutableArray" id="GpP-9N-ttU"/>
+                        <outletCollection property="columns" destination="Q1V-J6-m2b" collectionClass="NSMutableArray" id="mhl-sJ-dvH"/>
+                        <outletCollection property="columns" destination="f5q-jn-0Wn" collectionClass="NSMutableArray" id="K7N-bp-4Z8"/>
+                        <outletCollection property="columns" destination="OiG-z7-0Ip" collectionClass="NSMutableArray" id="f4o-ee-6Zj"/>
                     </connections>
                 </viewController>
             </objects>
